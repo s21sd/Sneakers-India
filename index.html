@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers-India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.svg">
+</head>
+
+<body>
+    <div class="navbar-div">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sneakers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Men</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <div class="d-flex m-2">
+                        <img class="m-4 bucket" id="myButton" src="images/icon-cart.svg" />
+                        <img src="images/image-avatar.png" width="50px" height="50px" />
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-div">
+            <div class="image-div">
+
+                <img class="product-main-image" src="images/image-product-1.jpg">
+                <div class="thumbnail-div">
+                    <img class="thumbnail-image" id="img1" src="images/image-product-1-thumbnail.jpg" alt="img-1">
+                    <img class="thumbnail-image" id="img2" src="images/image-product-2-thumbnail.jpg" alt="img-2">
+                    <img class="thumbnail-image" id="img3" src="images/image-product-3-thumbnail.jpg" alt="img-3">
+                    <img class="thumbnail-image" id="img4" src="images/image-product-4-thumbnail.jpg" alt="img-4">
+                </div>
+
+            </div>
+
+            <div class="desc-div">
+                <p class="company-name">SNEAKER COMPANY</p>
+                <h1 class="tag-line">Fall Limited Edition <br>Sneakers</h1>
+                <p>These low-profile sneakers are your prefect casual wear companion Featuring a durable rubber outer
+                    sole,they'll withstand everything the wrather can offer.</p>
+                <h1><span class="tag-line">$125.00 </span><span class="span-free">50%</span></h1>
+                <p><del>$250.00</del></p>
+                <div class="items-count-order">
+                    <div class="item-count">
+
+                        <i class="fa-solid fa-minus btn-class-plus" id="minus-btn" style="color: #ffa047;"></i>
+
+                        <p id="count" class="btn-class-plus">3</p>
+
+                        <i class=" fa-solid fa-plus btn-class-plus" id="plus-btn" style="color: #ffa047;"></i>
+
+                    </div>
+                    <div class="btn-class">
+
+                        <button class="order-btn" type="submit">
+                            <img class="m-1" src="images/icon-cart.svg" />Add to cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="popupDiv" style="display: none;">
+            <p>Cart</p>
+            <hr>
+            <div class="bucket-open">
+                <div class="item-selected">
+                    <img class="thumbnail-image" id="img1" src="images/image-product-1-thumbnail.jpg" alt="img-1">
+                    <p>Fall Limited Edition Sneakers <br>
+                        $125.00 x<span class="cartcount">3</span><span> <b>$375.00</b></span></p>
+                    <img src="images/icon-delete.svg">
+                </div>
+                <button class="checkout-btn" type="submit">Checkout</button>
+            </div>
+        </div>
+
+
+
+</body>
+
+<script src=" https://kit.fontawesome.com/0ce72b976b.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+<script src="scipt.js"></script>
+
+</html>
